@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontus Vainionpää</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i data-feather="sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox" />
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Hi, My name is Pontus</h1>
+            <h2>I'm a Web Developer</h2>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p><a href="https://povitasku.github.io/infinite-scroll/">Infinite Scroll</a></p>
+        <p><a href="https://povitasku.github.io/quote-generator/">Quote Generator</a></p>
+        <p><a href="https://povitasku.github.io/joke-teller/">Joke Teller</a></p>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/pontus-vainionpaa/"><i data-feather="linkedin"></i></a>
+            <a href="https://github.com/povitasku"><i data-feather="github"></i></a>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
